@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import Friend from './Friend'
-import FriendForm from './FriendForm'
+import React, { useState, useEffect } from 'react';
+import Friend from './Friend';
+import FriendForm from './FriendForm';
 // 🔥 STEP 1- CHECK THE ENDPOINTS IN THE README
 // 🔥 STEP 2- FLESH OUT FriendForm.js
 // 🔥 STEP 3- FLESH THE SCHEMA IN ITS OWN FILE
