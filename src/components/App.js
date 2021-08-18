@@ -110,7 +110,7 @@ export default function App() {
     const newFriend = {
       username: formValues.username.trim(),
       email: formValues.email.trim(),
-      role: formValues.role.trim(),
+      role: formValues.role,
       civil: formValues.civil.trim(),
       // 🔥 STEP 7- WHAT ABOUT HOBBIES?
       hobbies: ['hiking', 'reading', 'coding'].filter(hobby => formValues[hobby])

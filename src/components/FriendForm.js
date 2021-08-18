@@ -74,6 +74,7 @@ export default function FriendForm(props) {
             onChange={onChange}
             value={values.role} // controlled input
             name='role'
+            type='text'
           >
             <option value=''>- Select an option -</option>
             <option value='student'>Student</option>
