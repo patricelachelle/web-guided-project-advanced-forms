@@ -148,9 +148,9 @@ export default function App() {
       />
 
       {
-        friends.map(friend => {
+        friends.map((friend, idx) => {
           return (
-            <Friend key={friend.id} details={friend} />
+            <Friend key={idx} details={friend} />
           )
         })
       }
